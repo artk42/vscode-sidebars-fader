@@ -5,6 +5,9 @@ On hover, the sidebars restore to full visibility.
 
 Works with the [Custom CSS and JS Loader](https://marketplace.visualstudio.com/items?itemName=be5invis.vscode-custom-css) extension.
 
+![demo](https://github.com/user-attachments/assets/00e70b87-73ee-443e-b555-bdcc396c0044)
+
+
 ## Installation
 
 1. Install **Custom CSS and JS Loader** from VS Code marketplace.
