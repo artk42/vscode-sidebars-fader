@@ -17,14 +17,24 @@
     styleTag.type = 'text/css';
 
     styleTag.innerHTML = `
+/* Container-level filter for smooth fading */
+.sidebar-faded-root {
+  filter: brightness(0.05) saturate(0.3);
+  transition: filter 0.25s ease;
+}
+
+/* Children get reduced opacity to catch pseudo-elements/icons */
 .sidebar-faded-root * {
-  opacity: 0.05 !important;
-  filter: brightness(0.05) saturate(0.3) !important;
-  transition: opacity 0.15s linear, filter 0.15s linear;
+  opacity: 0.3 !important;
+  transition: opacity 0.25s ease;
+}
+
+/* On hover restore everything */
+.sidebar-faded-root:hover {
+  filter: none !important;
 }
 .sidebar-faded-root:hover * {
   opacity: 1 !important;
-  filter: none !important;
 }
 `;
     document.head.appendChild(styleTag);
