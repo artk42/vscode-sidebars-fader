@@ -1,7 +1,7 @@
 # VSCode Sidebars Fader
 
 A small JavaScript hack for [VS Code](https://code.visualstudio.com/) that fades or hides all text, icons, badges, and buttons in the **sidebar, activity bar, auxiliary bar, and panel (terminal/output/debug)** when the editor has focus.  
-On hover, the sidebars restore to full visibility.
+On hover, the sidebars restore to full visibility. It's like Zen mode, but in auto-mode and thus much faster.
 
 Works with the [Custom CSS and JS Loader](https://marketplace.visualstudio.com/items?itemName=be5invis.vscode-custom-css) extension.
 
